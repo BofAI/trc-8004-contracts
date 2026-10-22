@@ -1,6 +1,9 @@
 {
   "name": "my-sunhat-project",
   "version": "1.0.0",
+  "engines": {
+    "node": "^22.23.4 || ^24.22.1"
+  },
   "devDependencies": {
     "dotenv": "^16.4.7",
     "hardhat": "^2.23.0",

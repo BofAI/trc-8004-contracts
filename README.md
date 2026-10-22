@@ -54,7 +54,7 @@ The project consists of three main registry contracts:
 
 ## Requirements
 
-- **Node.js**: v18+
+- **Node.js**: `^22.23.4 || ^24.22.1` (default: `22.23.4`, see `.nvmrc`)
 - **pnpm** or **npm**
 - **Solidity**: 0.8.25
 - **For TRON Deployment**: [@sun-protocol/sunhat](https://github.com/sun-protocol/sunhat) and a TRON RPC URL + deployer private key.
@@ -62,6 +62,9 @@ The project consists of three main registry contracts:
 ## Quick Start
 
 ### Install Dependencies
+
+If you use nvm, run `nvm install` and `nvm use` to select the version in `.nvmrc`.
+
 ```bash
 npm install
 # or
